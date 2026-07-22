@@ -1,10 +1,12 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
+import 'homeScreenAssig/home_page.dart';
 import 'login_screen.dart';
 
 void main() {
  // runApp(const MyApp());
-  runApp(loginScreen());
+ // runApp(loginScreen());
+  runApp(HomePage());
 }
 
 class MyApp extends StatelessWidget {
