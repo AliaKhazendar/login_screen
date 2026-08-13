@@ -1,15 +1,26 @@
 import "package:flutter/material.dart";
 
+import 'finalExamAlia/login.dart';
+import 'finalExamAlia/restaurent.dart';
 import 'homeScreenAssig/home_page.dart';
 import 'login_screen.dart';
 
 void main() {
  // runApp(const MyApp());
- // runApp(loginScreen());
-  runApp(HomePage());
+  // runApp(loginScreen());
+  //runApp(loginSc());
+ // runApp(RestaurantSc());
+ // runApp(HomePage());
+    runApp(
+      MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: loginSc(),
+      ),
+    );
+
 }
 
-class MyApp extends StatelessWidget {
+/*class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
@@ -109,4 +120,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-}
+}*/

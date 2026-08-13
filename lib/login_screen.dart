@@ -16,6 +16,7 @@ class loginScreen extends StatelessWidget {
             ),
           ),
           width: double.infinity,
+          //
           child: SafeArea(
             child: Center(
               child: Column(
